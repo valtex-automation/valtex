@@ -1,0 +1,189 @@
+/* styles.css */
+
+/* Styles for the header section */
+.header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: #fff110 !important;
+}
+
+.header .bi-telephone-fill,
+.header .bi-envelope-fill {
+  margin-right: 5px;
+}
+
+.header img {
+  height: 30px;
+}
+
+.navbar-nav {
+  height: 60px;
+}
+
+.navbar-brand img {
+  height: 80px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff110;
+}
+
+h2 {
+  color: #fff110;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px; /* Adjust padding as needed */
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px; /* Adjust the thickness of the underline as needed */
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Styles for the button */
+.btn {
+  background-color: #fff110;
+  border: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #e6d90c;
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  color: #fff;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Dark overlay for better text visibility */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the Indiamart button */
+.indiamart-btn {
+  background-color: #fff110;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.indiamart-btn:hover {
+  background-color: #e6d90c;
+  color: white;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.glass-effect img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.client-img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 150px;
+  object-fit: contain;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.products .card,
+.industries .card {
+  margin-bottom: 30px;
+}
+
+.hero h1,
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  margin-top: 20px;
+  background-color: #fff110;
+}
+
+.footer .row h5,
+.footer .row p,
+.footer .row a {
+  color: #fff;
+}
+
+.footer .row a:hover {
+  text-decoration: underline;
+}
+
+.list-unstyled a {
+  text-decoration: none;
+}
+
+.list-unstyled a:hover {
+  color: #fff110;
+  text-decoration: underline;
+}
+
+.product-info,
+.industry-info {
+  text-align: left;
+}
